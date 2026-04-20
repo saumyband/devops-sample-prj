@@ -44,8 +44,8 @@ docker build -t noteflow-api .
 ### 4. Run Docker container
 docker run -p 8080:8080 noteflow-api
 
-### Sample Request
-# Create a Note
+## Sample Request
+### Create a Note
 POST /notes
 Content-Type: application/json
 
@@ -54,12 +54,12 @@ Content-Type: application/json
   "content": "Practice Docker, Terraform, and AWS"
 }
 
-### Project Goal
+## Project Goal
 The goal of this project is to learn and demonstrate:
 containerization with Docker
 CI/CD with GitHub Actions
 infrastructure provisioning with Terraform
 cloud deployment on AWS
 
-### Author
+## Author
 Built by Saumya Band
